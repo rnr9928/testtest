@@ -1,0 +1,102 @@
+
+body {
+  background: rgb(37, 37, 37);
+  display: flex;
+  justify-content: center; 
+  padding: 280px 20px;
+  
+}
+.boxbox {
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+  background: #fff;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.a-2 {
+  width: 200px;
+    height: 300px;
+    border: solid black 2px;
+}
+.b-2 {
+  width: 600px;
+  height: 400px;
+  margin-left: 350px;
+  border: solid black 2px;
+}
+.c-2 {
+  width: 200px;
+  height: 300px;
+  margin-left: 350px;
+  border: solid black 2px;
+}
+
+[particle] {
+  position: relative;
+}
+span.lit {
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  animation: blow 1s ease-in infinite;
+  transition: all 200ms ease;
+}
+@-moz-keyframes blow {
+  0% {
+    transform: translate(-50%, -50%) scale(0.1);
+    opacity: 0;
+  }
+  10% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -40vh);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes blow {
+  0% {
+    transform: translate(-50%, -50%) scale(0.1);
+    opacity: 0;
+  }
+  10% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -40vh);
+    opacity: 0;
+  }
+}
+@-o-keyframes blow {
+  0% {
+    transform: translate(-50%, -50%) scale(0.1);
+    opacity: 0;
+  }
+  10% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -40vh);
+    opacity: 0;
+  }
+}
+@keyframes blow {
+  0% {
+    transform: translate(-50%, -50%) scale(0.1);
+    opacity: 0;
+  }
+  10% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -40vh);
+    opacity: 0;
+  }
+}
